@@ -1,10 +1,9 @@
 package com.example.android.tourguidebucharest;
 
-/**
- * Created by Miai on 4/11/2018.
- */
+import android.os.Parcel;
+import android.os.Parcelable;
 
-public class Location {
+public class Location implements Parcelable {
 
     private String mLocationName;
 
@@ -16,18 +15,49 @@ public class Location {
 
     private String mLocationContact;
 
+    /** Image resource ID for the words */
+    private int mImageResourceId;
+
     public Location(
             String locationName,
             String locationDescription,
             String locationAddress,
             String locationOpenHours,
-            String locationContact
+            String locationContact,
+            int locationImageResourceId
             ) {
         mLocationName = locationName;
         mLocationDescription = locationDescription;
         mLocationAddress = locationAddress;
         mLocationOpenHours = locationOpenHours;
         mLocationContact = locationContact;
+        mImageResourceId = locationImageResourceId;
+    }
+
+    public Location(
+            String locationName,
+            String locationDescription,
+            String locationAddress,
+            String locationOpenHours,
+            String locationContact
+    ) {
+        mLocationName = locationName;
+        mLocationDescription = locationDescription;
+        mLocationAddress = locationAddress;
+        mLocationOpenHours = locationOpenHours;
+        mLocationContact = locationContact;
+    }
+
+    public Location(
+            String locationName,
+            String locationDescription,
+            String locationAddress,
+            int locationImageResourceId
+    ) {
+        mLocationName = locationName;
+        mLocationDescription = locationDescription;
+        mLocationAddress = locationAddress;
+        mImageResourceId = locationImageResourceId;
     }
 
     /**
@@ -52,17 +82,63 @@ public class Location {
     }
 
     /**
-     * Get location location open hours
+     * Get location open hours
      */
     public String getLocationOpenHours() {
         return mLocationOpenHours;
     }
 
     /**
-     * Get location location contact
+     * Get location contact
      */
     public String getLocationContact() {
         return mLocationContact;
+    }
+
+    /**
+     * Get location image resource id
+     */
+    public int getImageResourceId() {
+        return mImageResourceId;
+    }
+
+    //write object values to parcel for storage
+    public void writeToParcel(Parcel dest, int flags){
+        dest.writeString(mLocationName);
+        dest.writeString(mLocationDescription);
+        dest.writeString(mLocationAddress);
+        dest.writeString(mLocationOpenHours);
+        dest.writeString(mLocationContact);
+        dest.writeInt(mImageResourceId);
+    }
+
+    //constructor used for parcel
+    public Location(Parcel parcel){
+        mLocationName = parcel.readString();
+        mLocationDescription = parcel.readString();
+        mLocationAddress = parcel.readString();
+        mLocationOpenHours = parcel.readString();
+        mLocationContact = parcel.readString();
+        mImageResourceId = parcel.readInt();
+    }
+
+    //creator - used when un-parceling our parcle (creating the object)
+    public static final Parcelable.Creator<Location> CREATOR = new Parcelable.Creator<Location>(){
+
+        @Override
+        public Location createFromParcel(Parcel parcel) {
+            return new Location(parcel);
+        }
+
+        @Override
+        public Location[] newArray(int size) {
+            return new Location[0];
+        }
+    };
+
+    //return hashcode of object
+    public int describeContents() {
+        return hashCode();
     }
 
 }

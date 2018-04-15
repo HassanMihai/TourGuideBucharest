@@ -5,49 +5,36 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-/**
- * Created by Miai on 4/11/2018.
- */
+import java.util.ArrayList;
+import java.util.List;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    /** Context of the app */
-    private Context mContext;
+    private final List<Fragment> mFragmentList = new ArrayList<>();
+    private final List<String> mFragmentTitleList = new ArrayList<>();
 
     public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
-        mContext = context;
     }
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new MuseumsFragment();
-        } else if (position == 1) {
-            return new ParksFragment();
-        } else if (position == 2) {
-            return new FoodFragment();
-        } else {
-            return new NightLifeFragment();
-        }
+        return mFragmentList.get(position);
     }
 
     @Override
     public int getCount() {
-        return 4;
+        return mFragmentList.size();
+    }
+
+    public void addFrag(Fragment fragment, String title) {
+        mFragmentList.add(fragment);
+        mFragmentTitleList.add(title);
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return "Museums";
-        } else if (position == 1) {
-            return "Parks";
-        } else if (position == 2) {
-            return "Food";
-        } else {
-            return "Night Life";
-        }
+        return mFragmentTitleList.get(position);
     }
 
 }

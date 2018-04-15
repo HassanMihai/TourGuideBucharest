@@ -5,13 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-
-/**
- * Created by Miai on 4/11/2018.
- */
 
 public class LocationAdapter extends ArrayAdapter<Location> {
 
@@ -30,12 +27,11 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
         Location currentLocation = getItem(position);
 
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image_view);
+        imageView.setImageResource(currentLocation.getImageResourceId());
+
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.name_text_view);
         nameTextView.setText(currentLocation.getLocationName());
-
-
-        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description_text_view);
-        descriptionTextView.setText(currentLocation.getLocationDescription());
 
         return listItemView;
     }

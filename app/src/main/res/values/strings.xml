@@ -1,6 +1,120 @@
 <resources>
     <string name="app_name">Tour Guide Bucharest</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="museums">Museums</string>
+    <string name="parks">Parks</string>
+    <string name="food">Food</string>
+    <string name="night_life">Night Life</string>
+    <string name="location_image">Location Image</string>
+
+    <string name="national_museum_art">National Museum of Art of Romania</string>
+    <string name="national_museum_art_desc">The National Museum of Art of Romania (Romanian: Muzeul Național de Artă al României) is located in the Royal Palace in Revolution Square, central Bucharest. It features collections of medieval and modern Romanian art, as well as the international collection assembled by the Romanian royal family.</string>
+    <string name="national_museum_art_address">Calea Victoriei 49&#8211;53, Bucharest</string>
+    <string name="national_museum_art_hours">We&#8211;Su 10&#8211;18</string>
+    <string name="national_museum_art_contact">021 313 3030</string>
+
+    <string name="art_collections_museum">Art Collections Museum</string>
+    <string name="art_collections_museum_desc">Inaugurated in 1978 as a Department of the
+        National Museum of Art of Romania, the Art Collections Museum showcases artistic interests
+        that prevailed in Romanian society from the early 20th century onward. Over 30 collections
+        on permanent display incorporate a variety of art pieces and collectibles, ranging from
+        Romanian and European fine and decorative arts to Oriental art. Donated over nearly a
+        century by both collectors and artists, they bear witness to their owners’ taste and
+        economic power, their leaning toward famous names or contemporary art, as well as to the
+        artists particular interests, surroundings, and daily studio practice.</string>
+    <string name="art_collections_museum_address">Calea Victoriei 111, Bucharest</string>
+    <string name="art_collections_museum_hours">Wednesday to Sunday 11:00 to 19:00</string>
+    <string name="art_collections_museum_contact">+4021 211 1749</string>
+    
+    <string name="k_m_zambaccian">K. H. Zambaccian Museum</string>
+    <string name="k_m_zambaccian_desc">The museum brings centre stage a core selection of paintings
+        by Theodor Pallady. Together with over 800 prints and drawings from the artist’s Parisian
+        years, these are part of the Serafina and Gheorghe Răut collection, donated to the Romanian
+        state at the end of the 1960s. The collection also comprises French, Dutch, English and
+        Spanish paintings, European furniture and sculpture and a host of various objets d’art
+        which speak eloquently about the manner in which Romanian inter-war intellectuals tried to
+        emulate general trends. ‘ The museum is hosted in the Melik House. A traditional merchant
+        house, built in the second half of the 18th century, it is one of the earliest surviving
+        examples of vernacular Bucharest architecture and the only one open to the public.
+        The house is named after its most important owner, Iacob Melik, a strong supporter of the
+        1848 revolutionary movement, author of L’Orient devant L’Occident. While refurbishing the
+        house, he keenly maintained traditional elements such as the first-floor verandah, the
+        staircase and the wide eaves.</string>
+    <string name="k_m_zambaccian_address">Muzeul Zambaccian 21 A, Bucharest</string>
+    <string name="k_m_zambaccian_hours">Wednesday to Sunday 10:00 to 18:00</string>
+    <string name="k_m_zambaccian_contact">+4021 230 1920</string>
+    
+    <string name="theodor_pallady">Theodor Pallady Museum</string>
+    <string name="theodor_pallady_desc">The museum brings centre stage a core selection of
+        paintings by Theodor Pallady. Together with over 800 prints and drawings from the artist’s
+        Parisian years, these are part of the Serafina and Gheorghe Răut collection, donated to the
+        Romanian state at the end of the 1960s. The collection also comprises French, Dutch,
+        English and Spanish paintings, European furniture and sculpture and a host of various
+        objets d’art which speak eloquently about the manner in which Romanian inter-war
+        intellectuals tried to emulate general trends.</string>
+    <string name="theodor_pallady_address">Spatarului 22, Bucharest</string>
+    <string name="theodor_pallady_hours">Wednesday to Sunday 10:00 to 18:00</string>
+    <string name="theodor_pallady_contact">+4021 211 4979</string>
+
+    <string name="national_museum_romanian_history">National Museum of Romanian History</string>
+    <string name="national_museum_romanian_history_desc">The National Museum of Romanian History
+        (Romanian: Muzeul Național de Istorie a României) is a museum located on Calea Victoriei
+        in Bucharest, Romania, which contains Romanian historical artifacts from prehistoric
+        times up to modern times. The museum is located inside the former Postal Services Palace,
+        which also houses a philatelic museum. With a surface of over 8,000 square meters, the
+        museum has approx. 60 valuable exhibition rooms. The permanent displays include a plaster
+        cast of the entirety of Trajan's Column, the Romanian Crown Jewels, and the Pietroasele
+        treasure.</string>
+    <string name="national_museum_romanian_history_address">Calea Victoriei 12, Bucharest</string>
+    <string name="national_museum_romanian_history_hours">Wednesday to Sunday 10:00 to 18:00</string>
+    <string name="national_museum_romanian_history_contact">+4021 315 8207</string>
+
+    <string name="theodor_aman">Theodor Aman Museum</string>
+    <string name="theodor_aman_desc">The Theodor Aman Museum is one of the most beautiful private
+        residences in Bucharest, built in the year 1868 following Theodor Aman’s own designs. It is
+        also one of the few buildings which has remained unchanged during its existence, and is the
+        first workshop-residence in Romania. From the architectural plans of the house and exterior
+        decorations (done in colaboration with sculptor Karl Storck) to the interior design
+        (mural paintings, stained glass, stucco ceilings, wooden panelling in the workshop, and the
+        house’s furniture), the house reflects Theodor Aman’s vision. The Theodor Aman Museum was
+        opened in 1908 and is one of the oldest memorial museums in Romania. The house maintains
+        its intimate atmosphere, gained during the Belle Époque period, and holds a large part of
+        painter Theodor Aman’s works.</string>
+    <string name="theodor_aman_address">C. A. Rosetti 8, Bucharest</string>
+    <string name="theodor_aman_hours">Wednesday to Sunday 10:00 to 18:00</string>
+    <string name="theodor_aman_contact">+4021 314 5812</string>
+
+    <string name="herastrau_park">King Michael I of Romania Park</string>
+    <string name="herastrau_park_desc">King Michael I of Romania Park is a large park
+        on the northern side of Bucharest, Romania, around Lake Herastrau, one of the lakes formed
+        by the Colentina River. The park has an area of about 187 ha, of which 74 ha is the lake.
+        Initially, the area was full of marshes, but these were drained between 1930 and 1935, and
+        the park was opened in 1936. The park is divided into two zones: a rustic or natural zone
+        (the Village Museum), which is left more or less undisturbed, and a public/'active' domain
+        with open areas for recreation activities. Small boats are allowed on the lake.</string>
+    <string name="herastrau_park_address">Parcul Regele Mihai I al Romaniei, Bucharest</string>
+
+    <string name="tei_park">Tei Park</string>
+    <string name="tei_park_desc">The main attraction of the park is the Ferris wheel, which is 63
+        meters tall and counts 44 cabins. Other entertainment options in the park are the 15-meter
+        tall roller coaster, the electric cars, a swings area, slides and inflatable mattresses.
+        A smaller Ferris wheel exists in the park. It 12 cabins which lift 16 meters high. The
+        entire park features areas themed after various tales.</string>
+    <string name="tei_park_address">Parcul Lacul Tei, Bucharest</string>
+    
+    <string name="circus_park">Circus Park</string>
+    <string name="circus_park_desc">A rather unknown park for foreign tourists in Bucharest,
+        the Circus Park is a fine, green location in the Romanian capital when you need a few
+        relaxing hours, or when you need to stop a little and have a coffee or anything else to
+        drink while you visit the city. In the middle of the park is located the headquarters of
+        Globus Circus, the building being surrounded by trees, alleys and lawns, just perfect to
+        take a walk, away from the noisy city.</string>
+    <string name="circus_park_address">Parcul Circului, Bulevardul Lacul Tei, Bucharest</string>
+
+    <string name="caru_cu_bere">Caru\' cu bere</string>
+    <string name="caru_cu_bere_desc">Caru\' cu bere</string>
+    <string name="caru_cu_bere_address">Caru\' cu bere</string>
+    <string name="caru_cu_bere_hours">Caru\' cu bere</string>
+    <string name="caru_cu_bere_contact">Caru\' cu bere</string>
+
 </resources>

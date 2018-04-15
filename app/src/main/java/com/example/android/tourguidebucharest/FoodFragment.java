@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.GridView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -25,16 +26,16 @@ public class FoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
 
-        // Create a list of words
+        // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("loc name", "desc", "buch", "10", "aaa" ));
+        locations.add(new Location("Food name", "desc", "buch", "10", "aaa" ));
         locations.add(new Location("loc name", "desc", "buch", "10", "aaa" ));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        GridView gridView = (GridView) rootView.findViewById(R.id.list);
 
-        listView.setAdapter(adapter);
+        gridView.setAdapter(adapter);
 
         return rootView;
     }
