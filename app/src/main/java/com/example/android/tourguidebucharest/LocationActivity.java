@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class LocationActivity extends AppCompatActivity {
 
-    private final static int ICON_PADDING = 10;
+    private final static int ICON_PADDING = 72;
 
     private ImageView locationImage;
     private TextView locationName;
