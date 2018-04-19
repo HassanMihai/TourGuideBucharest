@@ -73,6 +73,7 @@ public class LocationActivity extends AppCompatActivity {
 
         locationAddressMap = "geo:0,0?q=" + valueLocationAddress;
 
+        // OnClickListener that open intent with location address in Google Maps
         locationAddress.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse(locationAddressMap);

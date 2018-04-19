@@ -1,6 +1,5 @@
 package com.example.android.tourguidebucharest;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -61,6 +60,18 @@ public class MuseumsFragment extends Fragment {
                 getString(R.string.theodor_aman_hours),
                 getString(R.string.theodor_aman_contact),
                 R.drawable.theodor_aman));
+        locations.add(new Location(getString(R.string.sutu_palace),
+                getString(R.string.sutu_palace_desc),
+                getString(R.string.sutu_palace_address),
+                getString(R.string.sutu_palace_hours),
+                getString(R.string.sutu_palace_contact),
+                R.drawable.sutu_palace));
+        locations.add(new Location(getString(R.string.peasant_museum),
+                getString(R.string.peasant_museum_desc),
+                getString(R.string.peasant_museum_address),
+                getString(R.string.peasant_museum_hours),
+                getString(R.string.peasant_museum_contact),
+                R.drawable.peasant_museum));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
@@ -68,6 +79,7 @@ public class MuseumsFragment extends Fragment {
 
         gridView.setAdapter(adapter);
 
+        // OnClickListener that send selected object with Parcelable to LocationActivity
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {

@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         setupTabIcons();
     }
 
+    // Setup the icons of the tabs
     private void setupTabIcons() {
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
         tabLayout.getTabAt(1).setIcon(tabIcons[1]);
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(3).setIcon(tabIcons[3]);
     }
 
+    // Setup view pager fragments
     private void setupViewPager(ViewPager viewPager) {
         CategoryAdapter adapter = new CategoryAdapter(this, getSupportFragmentManager());
         adapter.addFrag(new MuseumsFragment(), getString(R.string.museums));

@@ -10,7 +10,7 @@
     <string name="national_museum_art">National Museum of Art of Romania</string>
     <string name="national_museum_art_desc">The National Museum of Art of Romania (Romanian: Muzeul Național de Artă al României) is located in the Royal Palace in Revolution Square, central Bucharest. It features collections of medieval and modern Romanian art, as well as the international collection assembled by the Romanian royal family.</string>
     <string name="national_museum_art_address">Calea Victoriei 49&#8211;53, Bucharest</string>
-    <string name="national_museum_art_hours">We&#8211;Su 10&#8211;18</string>
+    <string name="national_museum_art_hours">Wednesday to Sunday 10:00 to 18:00</string>
     <string name="national_museum_art_contact">021 313 3030</string>
 
     <string name="art_collections_museum">Art Collections Museum</string>
@@ -84,6 +84,30 @@
     <string name="theodor_aman_hours">Wednesday to Sunday 10:00 to 18:00</string>
     <string name="theodor_aman_contact">+4021 314 5812</string>
 
+    <string name="peasant_museum">Romanian Peasant Museum</string>
+    <string name="peasant_museum_desc">The National Museum of the Romanian Peasant (Romanian:
+        Muzeul Național al Ţăranului Român) is a museum in Bucharest, Romania, with a collection
+        of textiles (especially costumes), icons, ceramics, and other artifacts of Romanian
+        peasant life. One of Europe\'s leading museums of popular arts and traditions, it was
+        designated "European Museum of the Year" for 1996.</string>
+    <string name="peasant_museum_address">Soseaua Pavel Dimitrievici Kiseleff 3, Bucharest</string>
+    <string name="peasant_museum_hours">Tuesday to Sunday 09:00 to 17:00</string>
+    <string name="peasant_museum_contact">+4021 317 9661</string>
+
+    <string name="sutu_palace">Romanian Peasant Museum</string>
+    <string name="sutu_palace_desc">Suţu Palace is one of the oldest aristocratic residences in
+        Bucharest, as well as one of the very few buildings which have remained unchanged for over
+        150 years. It was built between 1833 and 1835 by Costache Suţu, according to the designs
+        of architects Conrad Schwink and Johann Veit. The palace\’s interior was designed in 1862
+        by Karl Storck, renowned sculptor and decorative artist. He is responsible for the
+        monumental double-winder set of stairs leading to the first floor, and for adding a
+        beautiful gilded-frame mirror, brought all the way from Murano, Italy. The sculpted
+        wooden medallion representing Irina Suţu, the owner\’s spouse, rests right above the
+        mirror.</string>
+    <string name="sutu_palace_address">Bulevardul Ion C. Bratianu 2, Bucharest</string>
+    <string name="sutu_palace_hours">Tuesday to Sunday 10:00 to 18:00</string>
+    <string name="sutu_palace_contact">+4021 315 6858</string>
+
     <string name="herastrau_park">King Michael I of Romania Park</string>
     <string name="herastrau_park_desc">King Michael I of Romania Park is a large park
         on the northern side of Bucharest, Romania, around Lake Herastrau, one of the lakes formed
@@ -112,9 +136,109 @@
     <string name="circus_park_address">Parcul Circului, Bulevardul Lacul Tei, Bucharest</string>
 
     <string name="caru_cu_bere">Caru\' cu bere</string>
-    <string name="caru_cu_bere_desc">Caru\' cu bere</string>
-    <string name="caru_cu_bere_address">Caru\' cu bere</string>
-    <string name="caru_cu_bere_hours">Caru\' cu bere</string>
-    <string name="caru_cu_bere_contact">Caru\' cu bere</string>
+    <string name="caru_cu_bere_desc">At the foundation of Caru’ cu bere’s identity lays a history
+        of more than 130 years,  starting with the Mircea brothers, among which Mircea Nicolae as
+        the founder, his legacy and the historical building. The place which keeps immortal the
+        spirit of old Bucharest: Caru’ cu bere (The beer wagon)</string>
+    <string name="caru_cu_bere_address">Strada Stavropoleos 5, Bucharest</string>
+    <string name="caru_cu_bere_hours">Monday to Sunday 08:00 to 24:00</string>
+    <string name="caru_cu_bere_contact">+4021 313 7560</string>
+
+    <string name="mesogios">Mesogios</string>
+    <string name="mesogios_desc">Mesogios is the right place for seafood lovers, because they can
+        choose their main course from the fish display, right at the entrance. We call it
+        gastronomy voyeurism and it is our trademark. We want to show the clients, right from the
+        very first moment, that they can only find fresher seafood if they fish it themselves.
+        After they choose the main course, our chefs cook it however the client wants. We are
+        located in the most beautiful area of Bucharest, near Herastrau Park, the biggest and
+        most popular park in Bucharest, in a high class neighborhood where former dictator
+        Ceausescu used to live. At Mesogios you will savor delicious dishes in an elegant and
+        intimate atmosphere where we hope you will feel like home.</string>
+    <string name="mesogios_address">Helesteului 30, Bucharest</string>
+    <string name="mesogios_hours">Monday to Sunday 13:30 to 24:00</string>
+    <string name="mesogios_contact">+40722 200 232</string>
+
+    <string name="casa_doina">Casa Doina</string>
+    <string name="casa_doina_desc">In 2003 The Street Tavern takes on a new identity - Casa Doina -
+        but keeps all of its old habits. While a few modern ammenities have been added, you still
+        feel like you are walking into another place in time, after a long carriage trip you lay
+        down your top hat and stop for a refreshing drink or for a late supper.</string>
+    <string name="casa_doina_address">Kiseleff 4, Bucharest</string>
+    <string name="casa_doina_hours">Monday to Sunday 11:00 to 23:00</string>
+    <string name="casa_doina_contact">+4021 222 6717</string>
+
+    <string name="excalibur">Excalibur</string>
+    <string name="excalibur_desc">Have you ever dreamed of at a feast where relaxation and mood
+        are beyond the false rules of etiquette? In a very special place, cuted off from everyday
+        reality, the delicacies are saturated and the medieval scent of the place makes you want
+        to feast with your hand, because this is the only way you can really enjoy a royal
+        cuisine? Excalibur restaurant is the only place in Bucharest where succulent steaks,
+        tasty pies and vintage wines are served in generous portions, as in the days of
+        King Arthur by knights and ladies for wich the honor and reputation are above all.
+        We welcome you to visit us for a special medieval experience!</string>
+    <string name="excalibur_address">Academiei 39, Bucharest</string>
+    <string name="excalibur_hours">Monday to Sunday 12:00 to 24:00</string>
+    <string name="excalibur_contact">+4021 314 5670</string>
+
+    <string name="mojo">Mojo</string>
+    <string name="mojo_desc">Of all the pubs and live music clubs in the Old Town, this is the one
+        you want to come to. Set over three levels there is something for just about everyone.
+        Upstairs you have the best karaoke bar in the city - every night from 21:00 - while the
+        ground floor pub is packed with big screens showing any sport that matters, including
+        English football via Sky and BT Sports. Downstairs, the cavernous cellar hosts live music.
+        All the drinks are a good price, served by decent bar staff who will not keep you waiting.
+        Regular live stand-up comedy in both Romanian and English, and the Big British Bucharest
+        Quiz is held here every other Wednesday.</string>
+    <string name="mojo_address">Gabroveni 14 , Bucharest</string>
+    <string name="mojo_hours">Monday to Sunday 13:00 to 05:00</string>
+    <string name="mojo_contact">+40737 220 220</string>
+
+    <string name="queens">Queens</string>
+    <string name="queens_desc">While Romania is still a somewhat intolerant country when it comes
+        to gay rights, things are changing slowly. The presence of this club in the city centre
+        is evidence of that. Every Friday and Saturday night Queens welcomes girls and boys of all
+        persuasions, and usually puts on some kind of live show - often a no-holds-barred affair
+        - at least once a week.</string>
+    <string name="queens_address">B-dul Carol 61, Bucharest</string>
+    <string name="queens_hours">Friday to Saturday 10:00 to 05:00</string>
+    <string name="queens_contact">+40721 012 100</string>
+
+    <string name="craft_beer">Romanian Craft Beer Bar</string>
+    <string name="craft_beer_desc">Fantastic craft beer pub on Bucharest\'s most famous street,
+        run by the people behind Zaganu, the original Romanian craft beer, brewed at Maneciu
+        Ungureni since 2013. They have since launched four further beers: a brown ale, an IPA,
+        a red ale and Adonis, a limited edition pale ale. This place though is not just about
+        Zaganu: you will also find many other locally-brewed beers, from most of the other 15
+        or so craft beer producers who have cropped up over the past couple of years. Fabrica
+        always has at least ten beers on tap and loads more bottled. One of our fave places in
+        the Romanian capital.</string>
+    <string name="craft_beer_address">Calea Victoriei 91, Bucharest</string>
+    <string name="craft_beer_hours">Monday to Saturday 12:00 to 2345</string>
+    <string name="craft_beer_contact">+40770 550 234</string>
+
+    <string name="stpatrick">St. Patrick</string>
+    <string name="stpatrick_desc">Looks like a pub, feels like a pub, even smells like a pub. This
+        is a big, well located and quite frankly brilliant venue in the Old Town area: it really
+        sets the standard for the many others in the area. Set over two levels every inch of this
+        place is a proper boozer serving exemplary Guinness and Kilkenny on tap alongside loads
+        of decent beers and good pub grub. Also has what is probably the largest collection of
+        single malts in the country. Staff are good and ensure that you do not have to wait long
+        for a drink. Look out for the St. Patrick Party Room on the other side of the street: a
+        kind of Have We Got More St. Patrick For You. Quirky and cool.</string>
+    <string name="stpatrick_address">Smardan 23, Bucharest</string>
+    <string name="stpatrick_hours">Monday to Sunday 12:00 to 02:00</string>
+    <string name="stpatrick_contact">+4021 314 5670</string>
+
+    <string name="drunken_lords">The Drunken Lords</string>
+    <string name="drunken_lords_desc">On a narrow side street which links Strada Lipscani with
+        Strada Blanari (right in the heart of the Old Town) you will find this popular venue:
+        a good, lively pub and club playing decent music and offering a vibe a little more
+        upmarket than most other places in the area. Hosts plenty of live music, sports and
+        regular cultural events. The entire wall of one side opens up during good weather,
+        allowing everyone to gather outside for a drink, smoke and a chat. Prices and service
+        are well above average. You\'ll like the place.</string>
+    <string name="drunken_lords_address">Nicolae Selari 3, Bucharest</string>
+    <string name="drunken_lords_hours">Monday to Sunday 12:00 to 05:00</string>
+    <string name="drunken_lords_contact">+40736 238 815</string>
 
 </resources>

@@ -5,17 +5,22 @@ import android.os.Parcelable;
 
 public class Location implements Parcelable {
 
+    /** Location name */
     private String mLocationName;
 
+    /** Location description */
     private String mLocationDescription;
 
+    /** Location address */
     private String mLocationAddress;
 
+    /** Location open hours */
     private String mLocationOpenHours;
 
+    /** Location contact */
     private String mLocationContact;
 
-    /** Image resource ID for the words */
+    /** Image resource ID for the location */
     private int mImageResourceId;
 
     public Location(
@@ -32,20 +37,6 @@ public class Location implements Parcelable {
         mLocationOpenHours = locationOpenHours;
         mLocationContact = locationContact;
         mImageResourceId = locationImageResourceId;
-    }
-
-    public Location(
-            String locationName,
-            String locationDescription,
-            String locationAddress,
-            String locationOpenHours,
-            String locationContact
-    ) {
-        mLocationName = locationName;
-        mLocationDescription = locationDescription;
-        mLocationAddress = locationAddress;
-        mLocationOpenHours = locationOpenHours;
-        mLocationContact = locationContact;
     }
 
     public Location(
